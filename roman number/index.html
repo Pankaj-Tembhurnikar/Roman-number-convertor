@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC: Roman Numeral Converter</title>
+	<h1 align="center" color="red">ROMAN NUMBER CONVERTER</h1>
+	<link rel="stylesheet" href="main.css">	
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+<form class="roman-form">
+<div class="container">
+	<div class="inside">
+	  <div class="form-group"style="text-align:center";>
+			<input type="number" class="number" id="text" name="number" max="3999" min="1" placeholder="Enter Number">
+			<input id="result" class="data "placeholder="Result" readonly>
+	  </div>
+	  <br>
+	  <div class="form-check"style="text-align:center";>
+		<button type="button" id="check" onclick="convertToRoman()" ><img src="check.png"/></button>
+		<button id="clear" onclick="clearText()"><img src="Clear.png"/></button>
+        <button type="submit">Save</button>
+	  </div>
+	</div>
+</div>
+</form>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase.js"></script>
+    <script src="firebaseConfig.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
