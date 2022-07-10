@@ -1,0 +1,64 @@
+body{
+  text-align:center;
+  font-size:30px;
+background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+input{
+	height:180px;
+	width:350px;
+	font-size:30px;
+	border-radius:20px;
+	border-color:SKYBLUE;
+}
+.container{
+	height: 600px;
+}
+.inside{
+	background :WHITE;
+	width : 800px;
+	margin : auto;
+	padding : 50px;
+	box-shadow: 10px 15px 10px 6px rgba(0, 0, 0, 1);
+	border-radius: 20px;
+}
+h1{
+color:WHITE;
+font-family:Minion Pro Cond;
+FONT-STYLE:BOLD;
+}
+button:hover{
+  background-color: #4cc9f0;
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+  box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+}
+button{
+  color:BLUE;
+  border: 10;
+  border-color: WHITE;
+  vertical-align: left;
+  padding-right: 50px;
+  padding-left: 50px;
+  justify-content: space-around;
+  background: SKYBLUE; 
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 300;
+  border-radius: 5px; 
+  margin-right : 110px;
+  margin-left :110px;
+}
+h3{
+	color:white;
+}
+input{
+	text-align: right;
+	font-size: 50px;
+	padding : 10px;
+}
+img{
+	height:50px;
+	padding-top:10px;
+	
+}
