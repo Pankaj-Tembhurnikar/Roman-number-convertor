@@ -2,14 +2,8 @@
 
 Project Aim: Convert the given number into a roman numeral.
 
-Condition: All roman numerals answers should be provided in upper-case.
-
-Solution Process:
-
-Create Key-value pairs for roman numerals and numbers.
-
-Calculate number for thousands place, hundreds place, tens place and units place.
-
-Fetch the right roman numeral based on number and key-value pair.
-
-Join the string in order to get final Roman numeral.
+Usage:-
+This Converter is helpful if you are designing jewelry or a tattoo with Roman numerals.
+You can enter number dates and translate the date into Roman numerals. 
+A Roman numeral tattoo might also have dots, periods or dashes separating the month, day and year.
+Some Roman numeral tattoos have both an underline and overline connecting the string of characters
